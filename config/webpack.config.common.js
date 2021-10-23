@@ -2,7 +2,6 @@ const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const autoprefixer = require('autoprefixer');
-// const UitSpritesmithWebpack = require('@uit-spritesmith/webpack');
 
 const commonCSSLoaderOptions = {
   importLoaders: 2,
@@ -71,15 +70,6 @@ module.exports = {
     ]
   },
   plugins: [
-    // new UitSpritesmithWebpack({
-    //   spriteSrc: path.resolve('./assets/sprite'),
-    //   spriteDest: path.resolve('./assets/img/sprite'),
-    //   cssDest: path.resolve('./assets/scss/sprite'),
-    //   imgURL: '/assets/img/sprite',
-    //   prefix: 'sp_',
-    //   ratio: 3,
-    //   padding: 3,
-    // }),
     new HtmlWebpackPlugin({
       template: './public/index.html',
     }),

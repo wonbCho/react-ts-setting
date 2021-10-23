@@ -17,8 +17,8 @@ module.exports = {
     new CopyWebpackPlugin(
       [
         {
-          from: path.resolve(__dirname, '../../assets/mobile'),
-          to: path.resolve(__dirname, '../../dist/assets/mobile')
+          from: path.resolve(__dirname, '../../assets'),
+          to: path.resolve(__dirname, '../../dist/assets')
         },
       ]
     ),
