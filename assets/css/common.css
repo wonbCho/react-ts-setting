@@ -40,10 +40,6 @@ html,
 body,
 #app {
   height: 100%;
-<<<<<<< HEAD
-  background-color: #000;
-=======
->>>>>>> 2eb3f346bac187c1abb45f191f7bff661cd6533c
   -webkit-text-size-adjust: none;
   font-family: '-apple-system', 'AppleSDGothicNeo', 'SFProDisplay', 'BlinkMacSystemFont', 'HelveticaNeue', 'Helvetica', arial, 'sans-serif';
 }

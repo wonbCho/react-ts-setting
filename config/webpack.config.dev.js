@@ -4,7 +4,7 @@ module.exports = {
   mode: 'development',
   devtool: 'inline-source-map',
   devServer: {
-    port: 8888,
+    port: 9999,
     hot: true,
     historyApiFallback: {
       disableDotRule: true
