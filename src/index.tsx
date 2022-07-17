@@ -10,6 +10,7 @@ const App = () => {
   return (
     <Provider store={store}>
       <BrowserRouter>
+<<<<<<< HEAD
           <Suspense fallback={<Loading />}>
             <Switch>
               {routes.map((route, index) =>
@@ -22,6 +23,20 @@ const App = () => {
               )}
             </Switch>
           </Suspense>
+=======
+        <Suspense fallback={<Loading />}>
+          <Switch>
+            {routes.map((route, index) =>
+              <Route
+                key={index}
+                exact={route.exact}
+                path={route.path}
+                component={route.component}
+              />
+            )}
+          </Switch>
+        </Suspense>
+>>>>>>> 2eb3f346bac187c1abb45f191f7bff661cd6533c
       </BrowserRouter>
     </Provider>
   );
